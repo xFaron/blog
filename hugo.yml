@@ -1,4 +1,5 @@
 baseURL: "https://xfaron.github.io/"
+relativeURLs: true
 title: "TroutLaw"
 theme: papermod
 languageCode: "en-us"
