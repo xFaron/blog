@@ -1,0 +1,44 @@
+baseURL: "https://yourdomain.com/"
+title: "TroutLaw"
+theme: "papermod"
+languageCode: "en-us"
+
+params:
+  title: "TroutLaw | Blog"
+  description: "A Student's Journey Through Code, Curiosity, and Creation."
+  defaultTheme: "auto"
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowWordCount: true
+  UseHugoToc: true
+
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: >
+      I'm Harikrishna ~ a CSE undergrad at IIT Hyderabad.  
+      
+
+      -- This blog is my space to document what I learn in programming, AI, and everything in between.
+
+
+      -- New posts every Sunday 🚀
+
+  socialIcons:
+  - name: "github"
+    url: "https://github.com/xFaron"
+
+  profileMode:
+    enabled: false
+
+menu:
+  main:
+    - identifier: "posts"
+      name: "Posts"
+      url: "/posts/"
+      weight: 3
+
+    - identifier: "search"
+      name: "Search"
+      url: "/search/"
+      weight: 1
