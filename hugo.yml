@@ -1,6 +1,6 @@
 baseURL: "https://yourdomain.com/"
 title: "TroutLaw"
-theme: "papermod"
+theme: papermod
 languageCode: "en-us"
 
 params:

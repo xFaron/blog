@@ -13,6 +13,8 @@ jobs:
       # Step 1: Checkout your repo
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          submodules: true  # <-- this line enables cloning submodules  
 
       # Step 2: Setup Hugo (latest version)
       - name: Setup Hugo
