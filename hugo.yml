@@ -1,4 +1,4 @@
-baseURL: "https://xfaron.github.io/"
+baseURL: "https://xfaron.github.io/blog"
 relativeURLs: true
 title: "TroutLaw"
 theme: papermod
