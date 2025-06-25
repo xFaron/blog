@@ -2,7 +2,7 @@ baseURL: "https://xfaron.github.io/blog/"
 languageCode: "en-us"
 title: "TroutLaw | Blog"
 theme: papermod
-relativeURLs: true
+relativeURLs: false
 canonifyURLs: true
 
 params:
