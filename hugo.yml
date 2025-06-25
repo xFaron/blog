@@ -1,13 +1,14 @@
-baseURL: "https://xfaron.github.io/blog"
-relativeURLs: true
-title: "TroutLaw"
-theme: papermod
+baseURL: "https://xfaron.github.io/blog/"
 languageCode: "en-us"
+title: "TroutLaw | Blog"
+theme: papermod
+relativeURLs: true
+canonifyURLs: true
 
 params:
   title: "TroutLaw | Blog"
   description: "A Student's Journey Through Code, Curiosity, and Creation."
-  defaultTheme: "auto"
+  defaultTheme: auto
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
@@ -16,30 +17,15 @@ params:
 
   homeInfoParams:
     Title: "Hi there 👋"
-    Content: >
-      I'm Harikrishna ~ a CSE undergrad at IIT Hyderabad.  
-      
-
-      -- This blog is my space to document what I learn in programming, AI, and everything in between.
-
-
-      -- New posts every Sunday 🚀
-
-  socialIcons:
-  - name: "github"
-    url: "https://github.com/xFaron"
-
-  profileMode:
-    enabled: false
+    Content: "Welcome to my blog. I write about my learning journey."
 
 menu:
   main:
-    - identifier: "posts"
-      name: "Posts"
-      url: "/posts/"
-      weight: 3
-
-    - identifier: "search"
-      name: "Search"
-      url: "/search/"
+    - identifier: posts
+      name: Posts
+      url: /posts/
       weight: 1
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 2
